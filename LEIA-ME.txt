@@ -1,0 +1,7 @@
+SITE ACESSIBILIZA AUDIOVISUAL — VERSÃO COM IDENTIDADE VISUAL
+
+Abra index.html para visualizar. A pasta assets/ contém as imagens da marca e deve permanecer junto ao index.html na hospedagem.
+
+A versão usa as imagens enviadas, incluindo a marca horizontal e o ícone AD, a paleta azul-marinho #0F2E4D, champagne #C8A97E, creme #F7F3EA e branco #FFFFFF.
+
+A página de portfólio permanece editável localmente; alterações do editor não são publicadas automaticamente. Verifique dados de contato e projetos antes de divulgar.

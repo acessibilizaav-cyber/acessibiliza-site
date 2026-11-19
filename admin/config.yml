@@ -1,0 +1,37 @@
+
+backend:
+  name: github
+  repo: acessibilizaav-cyber/acessibiliza-site
+  branch: main
+
+locale: pt
+
+media_folder: "assets/uploads"
+public_folder: "/assets/uploads"
+
+collections:
+  - name: "portfolio"
+    label: "Portfólio"
+    label_singular: "Projeto"
+    folder: "conteudo/portfolio"
+    create: true
+    slug: "{{slug}}"
+    extension: "json"
+    format: "json"
+    fields:
+      - {label: "Título do projeto", name: "title", widget: "string"}
+      - {label: "Data", name: "date", widget: "datetime", required: false}
+      - label: "Área de atuação"
+        name: "category"
+        widget: "select"
+        options:
+          - "Eventos institucionais"
+          - "Artes e espetáculos"
+          - "Exposições e museus"
+          - "Produções audiovisuais"
+          - "Formação"
+          - "Projetos de acessibilidade"
+      - {label: "Descrição", name: "description", widget: "text"}
+      - {label: "Fotografia principal", name: "image", widget: "image", required: false}
+      - {label: "Link do vídeo", name: "video", widget: "string", required: false}
+      - {label: "Destacar na página inicial", name: "featured", widget: "boolean", default: false}
